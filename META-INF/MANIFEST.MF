@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Lookahead
+Bundle-SymbolicName: hu.bme.mit.trainbenchmark.benchmark.lookahead;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ hu.bme.mit.trainbenchmark.benchmark;bundle-version="1.0.0",
+ hu.bme.mit.trainbenchmark.config;bundle-version="1.0.0",
+ hu.bme.mit.trainbenchmark.benchmark.incquery;bundle-version="1.0.0",
+ hu.bme.mit.trainbenchmark.benchmark.emf;bundle-version="1.0.0",
+ hu.bme.mit.trainbenchmark.emf;bundle-version="1.0.0",
+ hu.bme.mit.trainbenchmark.model;bundle-version="1.0.0",
+ hu.bme.mit.trainbenchmark.benchmark.incquery.patterns;bundle-version="1.0.0",
+ hu.bme.mit.inf.LookaheadMatcher
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
